@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+
+# YOLO Model Weights
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Docker
+*.tar
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+
+# Cache
+.cache/
+
+# Kubernetes temp
+*.tmp
+
+# Python cache
+.pytest_cache/
+
+# Ultralytics
+runs/
+
+# Media
+*.mp4
