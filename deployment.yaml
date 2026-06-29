@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: person-counter-deployment
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: person-counter
+
+  template:
+    metadata:
+      labels:
+        app: person-counter
+
+    spec:
+      containers:
+      - name: person-counter
+        image: rahul0029/person-counter:latest
+
+        ports:
+        - containerPort: 8000
